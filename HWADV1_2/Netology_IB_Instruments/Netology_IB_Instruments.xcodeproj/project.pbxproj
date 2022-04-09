@@ -15,6 +15,8 @@
 		08176DE327F9F62D0024DE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08176DE127F9F62D0024DE13 /* LaunchScreen.storyboard */; };
 		08176DEF2800D1190024DE13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08176DEE2800D1190024DE13 /* ProfileView.swift */; };
 		08176DF12800D13C0024DE13 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08176DF02800D13C0024DE13 /* ProfileView.xib */; };
+		08176DF32800FA070024DE13 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08176DF22800FA070024DE13 /* Profile.storyboard */; };
+		08176DF7280101440024DE13 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08176DF6280101440024DE13 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		08176DE427F9F62D0024DE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08176DEE2800D1190024DE13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		08176DF02800D13C0024DE13 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		08176DF22800FA070024DE13 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		08176DF6280101440024DE13 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				08176DE427F9F62D0024DE13 /* Info.plist */,
 				08176DEE2800D1190024DE13 /* ProfileView.swift */,
 				08176DF02800D13C0024DE13 /* ProfileView.xib */,
+				08176DF22800FA070024DE13 /* Profile.storyboard */,
+				08176DF6280101440024DE13 /* ProfileViewController.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -133,6 +139,7 @@
 			files = (
 				08176DF12800D13C0024DE13 /* ProfileView.xib in Resources */,
 				08176DE327F9F62D0024DE13 /* LaunchScreen.storyboard in Resources */,
+				08176DF32800FA070024DE13 /* Profile.storyboard in Resources */,
 				08176DE027F9F62D0024DE13 /* Assets.xcassets in Resources */,
 				08176DDE27F9F6290024DE13 /* Main.storyboard in Resources */,
 			);
@@ -147,6 +154,7 @@
 			files = (
 				08176DEF2800D1190024DE13 /* ProfileView.swift in Sources */,
 				08176DDB27F9F6290024DE13 /* ViewController.swift in Sources */,
+				08176DF7280101440024DE13 /* ProfileViewController.swift in Sources */,
 				08176DD727F9F6290024DE13 /* AppDelegate.swift in Sources */,
 				08176DD927F9F6290024DE13 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,11 +305,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H5796GYSM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -311,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Netology.Netology-IB-Instruments";
+				PRODUCT_BUNDLE_IDENTIFIER = "XC.Netology-IB-Instruments";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,11 +335,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9H5796GYSM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Netology_IB_Instruments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Profile;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -340,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Netology.Netology-IB-Instruments";
+				PRODUCT_BUNDLE_IDENTIFIER = "XC.Netology-IB-Instruments";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
