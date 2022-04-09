@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  Netology_IB_Instruments
-//
-//  Created by Андрей Абрамов on 3/4/22.
-//
+
 
 import UIKit
 
